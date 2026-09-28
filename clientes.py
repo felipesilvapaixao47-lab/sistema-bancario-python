@@ -51,7 +51,8 @@ def cadastrar_cliente():
     cliente = {
         "nome": nome,
         "cpf": cpf_limpo,
-        "email": email_valido
+        "email": email_valido,
+        "contas": []
     }
 
     clientes.append(cliente)
